@@ -4,5 +4,8 @@ all:
 	chmod +x ./$(OUTPUT)
 	./$(OUTPUT)
 
+assemble:
+	g++ -S src/main.cpp
+
 clean:
-	rm $(OUTPUT)
+	rm $(OUTPUT) *.s

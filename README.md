@@ -20,3 +20,10 @@ make
 ```bash
 make clean
 ```
+
+## Optional
+
+You can make an assembly file by using the command 
+```bash
+make assemble
+```
